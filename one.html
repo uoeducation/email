@@ -14,12 +14,6 @@
                     box-shadow: 1px 3px 5px -1px #959698;
                 }
 
-                .module-divider {
-                    float: left;
-                    width: 1em;
-                    height: 1em;
-                }
-
                 @media only screen and (max-width: 550px) {
                     .module {
                         width: 100%;
@@ -27,8 +21,7 @@
                     }
 
                     .module-divider {
-                        float: none;
-                        height: 3em;
+                        display: none;
                     }
                 }
             </style>
@@ -40,7 +33,7 @@
                 Please place your headline text between the <h1> and </h1> tags.
 
                 //-->
-                <h1 style="font-family: 'Roboto',Helvetica,sans-serif; line-height: 1.25em;  font-weight: 100; font-size: 3em; margin: .5em 0; color: rgb(34, 35, 38);">
+                <h1 style="font-family: 'Roboto',Helvetica,sans-serif; line-height: 1.25em;  font-weight: 100; font-size: 3em; margin: .5em 0; color: rgb(34, 35, 38); letter-spacing: -.025em;">
                 Finding Foundation Funding
                 </h1>
 
@@ -96,7 +89,7 @@
                 Typing "<br>" which is also known as the line-break tag instructs the browser to create a new line——where the tag appears.
 
                 //-->
-                <div style="padding: 0; border: 0; margin: 0;" class="module">
+                <div style="padding: 0; border: 0; margin: 0 0 3em 0;" class="module">
                     <h3 style="font-family: 'Roboto',Helvetica,sans-serif; font-weight: 100; font-size: 1.2em; background-color: rgb(255, 222, 23); color: rgb(34, 35, 38); letter-spacing: .1em; margin: 0; padding: .5em .75em;">
                     WHEN
                     </h3>
@@ -108,8 +101,7 @@
                     </p>
                 </div>
 
-                <div class="module-divider">
-                </div>
+                <div class="module-divider" style="width: 1em; height: 1em; float: left;"></div>
 
                 <!--
 
@@ -121,7 +113,7 @@
                 Typing "<br>" which is also known as the line-break tag instructs the browser to create a new line——where the tag appears.
 
                 //-->
-                <div style="padding: 0; border: 0; margin: 0;" class="module">
+                <div style="padding: 0; border: 0; margin: 0 0 3em 0;" class="module">
                     <h3 style="font-family: 'Roboto',Helvetica,sans-serif; font-weight: 100; font-size: 1.2em; background-color: rgb(255, 222, 23); color: rgb(34, 35, 38); letter-spacing: .1em; margin: 0; padding: .5em .75em;">
                     WHERE
                     </h3>
@@ -131,8 +123,7 @@
                     </p>
                 </div>
 
-                <div style="clear: both; height: 30px;">
-                </div>
+                <div class="module-divider" style="width: 1em; height: 3em; float: left;"></div>
             </div>
         </td>
     </tr>
