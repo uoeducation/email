@@ -1,123 +1,453 @@
-<table style="background-color: #ffffff; padding: 0; border: 0px solid red; font-family: Georgia, serif; font-size: 20px; line-height: 30px; margin: auto; width: 100%;" bgcolor="#ffffff" cellspacing="0" cellpadding="0" border="0" width="100%" align="center"><tbody>
-    <tr>
-        <td>
-            <!--
+<!-- Everything in the <head> section will be stripped out in some clients, like Gmail in a web browser. //-->
+<head>
+    <style type="text/css">
 
-            INTERNAL STYLESHEET
-            This will be removed by Gmail, but respected by other clients, like Apple Mail, both on the Mac and in iOS. This code provides the "responsive" behavior.
+        .art-main {
+            margin-bottom:      -8px;
+        }
 
-            //-->
-            <style rel="stylesheet" type="text/css">
+        .container {
+            background-color:   initial;
+        }
 
-                @media only screen and (max-width: 550px) {
-                    .module-container {
-                        width: 240px;
-                    }
-                }
+        .iOS-fix a {
+            text-decoration:    none    !important;
+            color:              #000001 !important;
+        }
 
-            </style>
+            .green a {
+                color:          #047832 !important;
+            }
 
-            <div style="width: 100%; max-width: 500px; margin: auto; padding: 0;">
-                <!--
+        @media screen and (max-width: 499px) {
 
-                HEADLINE
-                Please place your headline text between the <h1> and </h1> tags.
+            .art-main, .logo {
+                width:          100%    !important;
+                height:         auto    !important;
+            }
 
-                //-->
-                <h1 style="font-family: 'Roboto',Helvetica,sans-serif; line-height: 1.25em;  font-weight: 100; font-size: 3em; margin: .5em 0; color: rgb(34, 35, 38); letter-spacing: -.025em;">
-                Finding Foundation Funding
-                </h1>
+            .container {
+                width:          100%    !important;
+            }
 
-                <!--
+            .copy-body {
+                font-size:      1em     !important;
+            }
 
-                SECONDARY HEADLINE
-                Please place your secondary headline text between the <h2> and </h1> tags.
+            .copy-boilerplate {
+                font-size:      1em     !important;
+                line-height:    1.375   !important;
+            }
 
-                //-->
-                <h2 style="font-family: 'Roboto',Helvetica,sans-serif; font-weight: 100; font-size: 1.5em; line-height: 1.5em; margin: 0; padding: .75em 0; color: rgb(34, 35, 38); border: 1px solid rgb(255, 222, 23); border-right: none; border-left: none;">
-                A workshop presented by Katy Lenn and Some Otherfolk who say additional things
-                </h2>
+            .copy-button {
+                font-size:      1.25em  !important;
+            }
 
-                <!--
+            .copy-large {
+                font-size:      1.125em  !important;
+            }
 
-                UO COE LOGO
-                The following code places the UO COE logo image and links it to https://education.uoregon.edu/
+            .copy-small {
+                font-size:      .75em   !important;
+            }
 
-                1em 0 1.5em 0
+            .headline-1 {
+                font-size:      2em     !important;
+            }
 
-                //-->
-                <a href="https://education.uoregon.edu/">
-                <img src="http://pages.uoregon.edu/edmatters/media/logos/coe-hor.png" style="padding: 1.5em 0; margin: 0; font-family: 'Roboto',Helvetica,sans-serif; font-weight: 100; font-size: 1.5em; color: rgb(34, 35, 38);" width="380" height="70" alt="UO College of Education">
-                </a>
+            .headline-2 {
+                font-size:      1.25em  !important;
+                letter-spacing: -.75px  !important;
+                line-height:    1.125   !important;
+            }
 
-                <!--
+            .headline-space {
+                height:         25px    !important;
+            }
 
-                BODY COPY GRAF
-                Please place body copy in between the following <p> and </p> tags.
+            .white-space-10-5 {
+                height:         5px     !important;
+            }
 
-                //-->
-                <p style="font-family: Georgia, serif; line-height: 1.75em; font-weight: 100; background-color: white; min-width: 250px; max-width: 400px; margin: 0; padding: 1em 0; font-size: 1em; color: rgb(34, 35, 38);">
-                Katy will provide an overview of the Foundation database available through the UO library. She plans to talk about strategies for accessing Foundation funding to support research and outreach activities.
-                </p>
+            .white-space-20-10 {
+                height:         10px    !important;
+            }
 
-                <!--
+            .white-space-30-15 {
+                height:         15px    !important;
+            }
 
-                BODY COPY GRAF
-                Please place body copy in between the following <p> and </p> tags.
+            .white-space-50-25 {
+                height:         25px    !important;
+            }
 
-                //-->
-                <p style="font-family: Georgia, serif; line-height: 1.75em; font-weight: 100; min-width: 250px; max-width: 400px; background-color: white; margin: 0 0 2em; padding: 1em 0 ; font-size: 1em; color: rgb(34, 35, 38);">
-                The event is open to all faculty and graduate students. Light refreshments are to be provided.
-                </p>
+            .white-space-75-375 {
+                height:         37.5px  !important;
+            }
 
-                <div style="clear: both;"></div>
+            .white-space-80-40 {
+                height:         40px    !important;
+            }
 
-                <div class="module-container" style="margin: auto;">
-                    <!--
+            .white-space-100-50 {
+                height:         50px    !important;
+            }
 
-                    INFO MODULE
-                    Please title this module by placing text between the <h3> and </h3> tags.
-                    Please include information in this module by placing text between the <p> and </p> tags.
+        }
 
-                    HINT
-                    Typing "<br>" which is also known as the line-break tag instructs the browser to create a new line——where the tag appears.
+        @media screen and (min-width: 500px) {
+            .button {
+                width:          450px   !important;
+            }
+        }
 
-                    //-->
-                    <div style="padding: 0; border: 0; width: 240px; box-shadow: 1px 3px 5px -1px rgb(95, 96, 98); margin: 0 1em 3em 0; float: left;" class="module">
-                        <h3 style="font-family: 'Roboto',Helvetica,sans-serif; font-weight: 100; font-size: 1.2em; background-color: rgb(255, 222, 23); color: rgb(34, 35, 38); letter-spacing: .05em; margin: 0; padding: .5em .75em;">
-                        WHEN
-                        </h3>
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Set zoom scale to 1 on all devices //-->
+</head>
+<!-- ***END*** <head> section //-->
 
-                        <p style="font-family: Georgia, serif; line-height: 1.75em; font-weight: 100; min-width: 225px; max-width: 400px; font-size: 1.5em; background-color: white; margin: 0; padding: .5em 0 .5em .5em; color: rgb(34, 35, 38);">
-                        1-2 p.m. Wednesday
-                        <br>
-                        June 11
-                        </p>
-                    </div>
+<!-- CONTAINER outermost //-->
+<table style="font-size:16px; margin:0; position:absolute; left:0;" border="0" width="100%" cellspacing="0" cellpadding="0" class="container-outermost">
+    <tbody><tr>
+        <td align="center">
 
-                    <!--<div class="module-divider" style="width: 1em; height: 1em; float: left;"></div>//-->
+            <!-- CONTAINER headline //-->
+            <table border="0" cellspacing="0" cellpadding="0" style="margin:0; background-color:#ffd200; width:100%;" width="100%">
+                <tbody><tr>
+                    <td></td>
+                    <td height="50" class="headline-space"></td>
+                    <td></td>
+                </tr><tr>
+                    <td width="10"></td>
+                    <td align="center">
 
-                    <!--
+                        <table cellspacing="0" cellpadding="0" width="480" class="container">
+                            <tbody><tr>
+                                <td class="headline-1" style="font-family:Helvetica,Arial,sans-serif; line-height:1.125; font-weight:900; color:#050608; text-transform:uppercase; letter-spacing:-.05em; font-size:3em;" align="left"><span class="iOS-fix"><a href="http://shop.uoduckstore.com/College_of_Education_s/758.htm" style="text-decoration:none; color:#000001;">Get your official College of Education gear!</a></span></td>
+                            </tr></tbody>
+                        </table>
 
-                    INFO MODULE
-                    Please title this module by placing text between the <h3> and </h3> tags.
-                    Please include information in this module by placing text between the <p> and </p> tags.
+                    </td>
+                    <td width="10"></td>
+                </tr><tr>
+                    <td></td>
+                    <td height="10" class="headline-space"></td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td align="center" style="line-height:0;"><img class="art-main" src="http://pages.uoregon.edu/edmatters/other/coe-store-open/carousel.gif" width="500" height="300" style="margin-bottom:-8px; font-family:Helvetica,Arial,sans-serif; font-size:2em; color:#124734;" alt="Polos, t-shirts and hats"></td>
+                    <td></td>
+                </tr></tbody>
+            </table>
+            <!-- *END* CONTAINER headline //-->
 
-                    HINT
-                    Typing "<br>" which is also known as the line-break tag instructs the browser to create a new line——where the tag appears.
+            <!-- LOGO //-->
+            <table cellspacing="0" cellpadding="0" bgcolor="#124734" width="100%">
+                <tbody><tr>
+                    <td align="center" style="line-height:0;">
+                        <a href="https://education.uoregon.edu/"><img src="http://pages.uoregon.edu/edmatters/media/logos/logo-uo-coe-sig-bar-4c.png" style="font-family:Helvetica,Arial,sans-serif; color:#fdfdfd; font-size:1.5em; width:500px; height:72px;" width="500" height="72" alt="University of Oregon College of Education" class="logo" border="0"></a>
+                    </td>
+                </tr></tbody>
+            </table>
+            <!-- *END* LOGO //-->
 
-                    //-->
-                    <div style="padding: 0; border: 0; width: 240px; box-shadow: 1px 3px 5px -1px rgb(95, 96, 98); margin: 0 0 3em 0; float: left;" class="module">
-                        <h3 style="font-family: 'Roboto',Helvetica,sans-serif; font-weight: 100; font-size: 1.2em; background-color: rgb(255, 222, 23); color: rgb(34, 35, 38); letter-spacing: .05em; margin: 0; padding: .5em .75em;">
-                        WHERE
-                        </h3>
+            <!-- CONTAINER white space //-->
+            <table cellspacing="0" cellpadding="0" bgcolor="#f8f8ff" width="100%">
+                <tbody><tr>
+                    <td height="30" class="white-space-30-15"></td>
+                </tr></tbody>
+            </table>
+            <!-- *END* CONTAINER white space //-->
 
-                        <p style="font-family: Georgia, serif; line-height: 1.75em; font-weight: 100; min-width: 225px; max-width: 400px; font-size: 1.5em; background-color: white; margin: 0; padding: .5em 0 .5em .5em; color: rgb(34, 35, 38);">
-                        HEDCO 220
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <!-- CONTAINER body //-->
+            <table cellspacing="0" cellpadding="0" bgcolor="#f8f8ff" width="100%" style="border-color:#f8f8ff;">
+                <tbody><tr>
+                    <td align="center">
+
+                        <!-- CONTAINER copy //-->
+                        <table border="0" cellspacing="0" cellpadding="0" style="margin:0;" width="500" class="container" bgcolor="#f8f8ff">
+                            <tbody><tr>
+                                <td width="20"></td>
+                                <td style="font-family:Georgia,Times New Roman,serif; line-height:1.5; color:#050608; font-size:1.25em;" align="left" class="copy-body">
+                                    Just in time for the white-hot February shopping season comes the College of Education's customized Duck Store page. Check out <span class="iOS-fix green"><a style="text-decoration:underline !important; color:#047832;" href="http://shop.uoduckstore.com/College_of_Education_s/758.htm"><strong>hats, T-shirts and polos</strong></a></span> in sizes and prices to accommodate virtually all tastes, with free shipping to the campus Duck Store.
+                                </td>
+                                <td width="20"></td>
+                            </tr></tbody>
+                        </table>
+                        <!-- *END* CONTAINER copy //-->
+
+                        <!-- CONTAINER white space //-->
+                        <table cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td height="50" class="white-space-50-25"></td>
+                            </tr></tbody>
+                        </table>
+                        <!-- *END* CONTAINER white space //-->
+
+                        <!-- CALL-OUT apparatus //-->
+                        <table border="0" cellspacing="0" cellpadding="0" width="500" style="font-family:Helvetica,Arial,sans-serif;" class="container">
+                            <tbody><tr>
+                                <td></td>
+                                <td style="font-size:1.75em; color:#154733; font-weight:600; line-height:1.25; letter-spacing:-1.5px;" class="headline-2" align="left">
+                                    Get 20% off&mdash;next week only!
+                                </td>
+                                <td></td>
+                            </tr><tr>
+                                <td></td>
+                                <td height="20" class="white-space-20-10"></td>
+                                <td></td>
+                            </tr><tr>
+                                <td width="20"></td>
+                                <td style="line-height:1.5; color:#050608; font-size:1.5em;" align="left" class="copy-large">
+                                    Enter coupon code <strong>COE20</strong> during checkout
+                                </td>
+                                <td width="20"></td>
+                            </tr><tr>
+                                <td></td>
+                                <td height="10" class="white-space-10-5"></td>
+                                <td></td>
+                            </tr><tr>
+                                <td width="20"></td>
+                                <td style="line-height:1.5; color:#050608; font-size:1em;" align="left" class="copy-small">
+                                    <em>The offer is valid with any single order placed <span class="iOS-fix"><a><strong>February 1-8, 2015</strong></a></span>. Please note that customers cannot combine this discount with other offers or discounts.</em>
+                                </td>
+                                <td width="20"></td>
+                            </tr></tbody>
+                        </table>
+                        <!-- *END* CALL-OUT apparatus //-->
+
+                        <!-- CONTAINER white space //-->
+                        <table cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td height="75" class="white-space-75-375"></td>
+                            </tr></tbody>
+                        </table>
+                        <!-- *END* CONTAINER white space //-->
+
+                        <!-- BUTTON apparatus //-->
+                        <a href="http://shop.uoduckstore.com/College_of_Education_s/758.htm" style="display:inline-block;">
+                        <table style="margin:0 auto; padding:0;" width="280" border="0" cellpadding="0" cellspacing="0" class="button">
+                            <tbody><tr>
+                                <td style="background-color:#f9e11b; background-image:url(http://pages.uoregon.edu/edmatters/other/homecoming-save-the-date/assets/bg-btn.png); background-size:contain; background-repeat:repeat-x; border-radius: 5px; border:2px solid #edd700; box-shadow: 1px 2px 1px rgb(95,96,98);" align="center" valign="center">
+
+                                    <table border="0" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <td height="20"></td>
+                                        </tr><tr>
+                                            <td>
+                                                <a href="http://shop.uoduckstore.com/College_of_Education_s/758.htm" style="color:rgb(46,48,49); font-size:1.5em; font-family:Helvetica,Arial,sans-serif; text-decoration:none; font-weight:100; text-shadow: 0px 1px 0px rgb(245, 246, 248);" class="copy-button">Order Yours Today</a>
+                                            </td>
+                                        </tr><tr>
+                                            <td height="18"></td>
+                                        </tr></tbody>
+                                    </table>
+
+                                </td>
+                            </tr></tbody>
+                        </table>
+                        </a>
+                        <!-- *END* BUTTON apparatus //-->
+
+                    </td>
+                </tr></tbody>
+            </table>
+            <!-- *END* CONTAINER body //-->
+
+            <!-- CONTAINER white space //-->
+            <table cellspacing="0" cellpadding="0" bgcolor="#f8f8ff" width="100%">
+                <tbody><tr>
+                    <td height="100" class="white-space-100-50"></td>
+                </tr></tbody>
+            </table>
+            <!-- *END* CONTAINER white space //-->
+
+            <!-- CONTAINER footer //-->
+            <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#54565b">
+                <tbody><tr>
+                    <td align="center">
+
+                        <!-- CONTAINER white space //-->
+                        <table cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td height="80" class="white-space-80-40"></td>
+                            </tr></tbody>
+                        </table>
+                        <!-- *END* CONTAINER white space //-->
+
+                        <!-- CONTAINER boilerplate links //-->
+                        <table cellspacing="0" cellpadding="0" align="center">
+                            <tbody><tr>
+                                <td width="20"></td>
+                                <td align="center">
+
+                                    <!-- CONTAINER footer padded round corners //-->
+                                    <table style="border-radius:5px;" cellpadding="10" width="100%" bgcolor="#f8f8ff">
+                                        <tbody><tr>
+                                            <td align="left">
+
+                                                <!-- CONTAINER footer web address //-->
+                                                <a href="https://education.uoregon.edu/" style="text-decoration:none; color:#000001;"><table width="100%">
+                                                    <tbody><tr>
+                                                        <td valign="center" width="1">
+
+                                                            <table border="0"><!-- ICON www //-->
+                                                                <tbody><tr>
+                                                                    <td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-www.png" height="24" width="24"></td>
+                                                                </tr></tbody>
+                                                            </table><!-- *END* ICON www //-->
+
+                                                        </td>
+                                                        <td width="4"></td>
+                                                        <td height="1" width="1">
+
+                                                            <table border="0" cellpadding="0" cellspacing="0" height="100%"><!-- RULE vertical gray //-->
+                                                                <tbody><tr>
+                                                                    <td bgcolor="#a8a8aa" width="1"></td>
+                                                                </tr></tbody>
+                                                            </table><!-- *END* RULE vertical gray //-->
+
+                                                        </td>
+                                                        <td width="4"></td>
+                                                        <td>
+                                                            <span style="font-size:1em; line-height:1.5; text-decoration:none; font-family:sans-serif; color:#000001;" class="iOS-fix copy-boilerplate"><a href="https://education.uoregon.edu/" style="text-decoration:none; color:#000001;">education.uoregon.edu</a></span>
+                                                        </td>
+                                                    </tr></tbody>
+                                                </table><!-- *END* CONTAINER footer web address //--></a>
+
+                                            </td>
+                                        </tr></tbody>
+                                    </table><!-- *END* CONTAINER footer padded round corners //-->
+
+                                </td>
+                                <td width="20"></td>
+                            </tr><tr>
+                                <td></td>
+                                <td height="20"></td>
+                                <td></td>
+                            </tr><tr>
+                                <td width="20"></td>
+                                <td align="center">
+
+                                    <!-- CONTAINER footer padded round corners //-->
+                                    <table style="border-radius:5px;" cellpadding="10" width="100%" bgcolor="#f8f8ff">
+                                        <tbody><tr>
+                                            <td align="left">
+
+                                                <!-- CONTAINER footer email address //-->
+                                                <table border="0" width="100%">
+                                                    <tbody><tr>
+                                                        <td valign="center" width="1">
+
+                                                            <!-- ICON email send //-->
+                                                            <table border="0">
+                                                                <tbody><tr>
+                                                                    <td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-email-send.png" height="24" width="24"></td>
+                                                                </tr></tbody>
+                                                            </table>
+                                                            <!-- *END* ICON email send //-->
+
+                                                        </td>
+                                                        <td width="4"></td>
+                                                        <td height="1" width="1">
+
+                                                            <!-- RULE vertical gray //-->
+                                                            <table border="0" cellpadding="0" cellspacing="0" height="100%">
+                                                                <tbody><tr>
+                                                                    <td bgcolor="#a8a8aa" width="1"></td>
+                                                                </tr></tbody>
+                                                            </table>
+                                                            <!-- *END* RULE vertical gray //-->
+
+                                                        </td>
+                                                        <td width="4"></td>
+                                                        <td>
+                                                            <span style="font-size:1em; line-height:1.5; text-decoration:none; font-family:sans-serif; color:#000001;" class="iOS-fix copy-boilerplate"><a href="mailto:%20edmatters@uoregon.edu" style="text-decoration:none; color:#000001;">edmatters@uoregon.edu</a></span>
+                                                        </td>
+                                                    </tr></tbody>
+                                                </table>
+                                                <!-- *END* CONTAINER footer email address //-->
+
+                                            </td>
+                                        </tr></tbody>
+                                    </table>
+                                    <!-- *END* CONTAINER footer padded round corners //-->
+
+                                </td>
+                                <td width="20"></td>
+                            </tr><tr>
+                                <td></td>
+                                <td height="20"></td>
+                                <td></td>
+                            </tr><tr>
+                                <td width="20"></td>
+                                <td align="center">
+                                    
+                                    <!-- CONTAINER padded rounded corners //-->
+                                    <table style="border-radius:5px;" cellpadding="10" width="100%" bgcolor="#f8f8ff">
+                                        <tbody><tr>
+                                            <td align="left">
+
+                                                <!-- CONTAINER footer address hedco //-->
+                                                <table style="border-radius:5px;" width="100%">
+                                                    <tbody><tr>
+                                                        <td valign="center" width="1">
+
+                                                            <!-- ICON address hedco //-->
+                                                            <table border="0">
+                                                                <tbody><tr>
+                                                                    <td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-address-hedco.png" height="24" width="24"></td>
+                                                                </tr></tbody>
+                                                            </table>
+                                                            <!-- *END* ICON address hedco //-->
+
+                                                        </td>
+                                                        <td width="4"></td>
+                                                        <td height="1" width="1">
+
+                                                            <!-- RULE vertical gray //-->
+                                                            <table border="0" cellpadding="0" cellspacing="0" height="100%">
+                                                                <tbody><tr>
+                                                                    <td bgcolor="#a8a8aa" width="1"></td>
+                                                                </tr></tbody>
+                                                            </table>
+                                                            <!-- *END* RULE vertical gray //-->
+
+                                                        </td>
+                                                        <td width="4"></td>
+                                                        <td>
+                                                            <span style="font-size:1em; line-height:1.5; text-decoration:none; font-family:sans-serif; color:#000001" class="iOS-fix copy-boilerplate">College of Education
+                                                            <br />1215 University of Oregon
+                                                            <br />Eugene, OR 97403-1215</span>
+                                                        </td>
+                                                    </tr></tbody>
+                                                </table>
+                                                <!-- *END* CONTAINER footer address hedco //-->
+
+                                            </td>
+                                        </tr></tbody>
+                                    </table>
+                                    <!-- *END* CONTAINER padded rounded corners //-->
+
+                                </td>
+                                <td width="20"></td>
+                            </tr></tbody>
+                        </table>
+                        <!-- *END* CONTAINER boilerplate links //-->
+
+                        <!-- CONTAINER white space //-->
+                        <table cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td height="80" class="white-space-80-40"></td>
+                            </tr></tbody>
+                        </table>
+                        <!-- *END* CONTAINER white space //-->
+
+                    </td>
+                </tr></tbody>
+            </table>
+            <!-- *END* CONTAINER footer //-->
+
         </td>
-    </tr>
-</tbody></table>
+    </tr></tbody>
+</table>
+<!-- *END* CONTAINER outermost //-->
