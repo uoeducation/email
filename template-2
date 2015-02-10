@@ -1,0 +1,400 @@
+<!-- STASH! //-->
+
+    <!-- BUTTON apparatus
+    <a href="https://www.flickr.com/photos/uoeducation/sets/72157649712997256/">
+    <table width="280" border="0" cellpadding="0" cellspacing="0" class="button">
+        <tbody><tr>
+            <td style="background-color:#fde705; background-image:url(http://pages.uoregon.edu/edmatters/other/homecoming-save-the-date/assets/bg-btn.png); background-size:contain; background-repeat:repeat-x; border-radius: 5px; border:2px solid #edd700; box-shadow: 1px 2px 1px rgb(95,96,98);" align="center" valign="center">
+
+                <table border="0" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td height="20"></td>
+                    </tr><tr>
+                        <td>
+                            <a href="https://education.uoregon.edu/ded" style="color:rgb(46,48,49); font-size:1.5em; font-family:Helvetica,Arial,sans-serif; text-decoration:none; font-weight:100; text-shadow: 0px 1px 0px rgb(245, 246, 248);" class="copy-button">Learn More</a>
+                        </td>
+                    </tr><tr>
+                        <td height="18"></td>
+                    </tr></tbody>
+                </table>
+
+            </td>
+        </tr><tr>
+            <td height="10"></td>
+        </tr></tbody>
+    </table>
+    </a>
+    *END* BUTTON apparatus //-->
+
+<!-- ***END*** STASH! //-->
+
+<!-- Everything in the <head> section will be stripped out in some clients, like Gmail in a web browser. //-->
+<head>
+
+    <style type="text/css">
+
+        .iOS-fix a {
+            text-decoration:    none    !important;
+            color:              #000001 !important;
+        }
+
+        .green a {
+            color:              #154733 !important;
+        }
+
+        @media screen and (max-width: 699px) {
+
+            .art-main {
+                border-radius:  initial !important;
+                width:          100%    !important;
+                height:         auto    !important;
+            }
+
+            .container-footer {
+                border-radius:  0       !important;
+            }
+
+            .container-main {
+                width:          100%    !important;
+            }
+
+            .copy-body {
+                font-size:      1em     !important;
+            }
+
+            .copy-small {
+                font-size:      1.125em !important;
+            }
+
+            .headline-1 {
+                font-size:      1.675em !important;
+                letter-spacing: -.75px  !important;
+                line-height:    1.125   !important;
+                max-width:      300px   !important;
+            }
+
+            .headline-2 {
+                font-size:      1.25em  !important;
+                letter-spacing: -.75px  !important;
+                line-height:    1.125   !important;
+            }
+
+            .footer {
+                border-radius:  initial !important;
+            }
+
+            .margin {
+                width:          0       !important;
+                height:         0       !important;
+            }
+
+            .margin-body {
+                width:          15px    !important;
+            }
+
+            .white-space-80-40 {
+                height:         40px    !important;
+            }
+
+            .white-space-half, .white-space {
+                height:         25px    !important;
+            }
+
+            .white-space-quarter {
+                height:         12.5px  !important;
+            }
+
+            .white-space-double {
+                height:         50px    !important;
+            }
+
+            .white-space-three-quarter {
+                height:         37.5px  !important;
+            }
+
+        }
+
+        @media screen and (min-width: 700px) {
+
+            .button {
+                width:          500px   !important;
+            }
+            .container-main {
+                box-shadow:     1px 0 15px 0 rgba(0,0,0,.15);
+                border-radius:  9px;
+            }
+
+        }
+
+    </style>
+
+    <!-- Set zoom scale to 1 on all devices //-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<!-- OUTERMOST container //-->
+<table style="font-size:16px; position:absolute; left:0;" class="container-wrap" bgcolor="#a8a8aa" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody>
+    <tr>
+        <td class="margin" width="50"></td>
+        <td class="margin" height="50"></td>
+        <td class="margin" width="50"></td>
+    </tr><tr>
+        <td class="margin" width="50"></td>
+        <td align="center">
+
+            <!-- CONTAINER main //-->
+            <table class="container-main" cellpadding="0" cellspacing="0" width="600"><tbody>
+                <tr>
+                    <td><img src="http://pages.uoregon.edu/edmatters/promos/eli-std-header-0215.jpg" style="border-top-right-radius: 9px; border-top-left-radius: 9px; font-size: 2.25em; color: rgb(248, 248, 255); font-family: Helvetica,Arial,sans-serif; letter-spacing: -2px; font-weight: 600;" class="art-main" alt="SAVE THE DATE: JUNE 26-27, 2015" align="middle" height="326" width="600"></td>
+                </tr><tr>
+                    <td>
+
+                        <!-- CONTAINER content rows //-->
+                        <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="100%"><tbody>
+                            <tr>
+                                <td>
+
+                                    <!-- CONTAINER headlines and copy //-->
+                                    <table style="color:#154733; line-height:1.5; text-align:center;" class="container-copy" height="100%" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td class="margin-body" width="30"></td>
+                                                <td class="white-space-half" height="50"></td>
+                                                <td class="margin-body" width="30"></td>
+                                            </tr><tr>
+                                                <td></td>
+                                                <td style="font-family:Helvetica,Arial,sans-serif; font-size:2.25em; text-transform:uppercase; font-weight:600; letter-spacing:-1.5px; line-height:1.25; color:#154733; word-wrap:break-word; max-width:300px;" class="headline-1" align="left">LITERACY LEADERSHIP IN THE AGE OF COMMON CORE</td>
+                                                <td></td>
+                                            </tr><tr>
+                                                <td></td>
+                                                <td class="white-space-quarter" height="25"></td>
+                                                <td></td>
+                                            </tr><tr>
+                                                <td></td>
+                                                <td style="font-family:Trebuchet MS,Helvetica,Arial,sans-serif; font-size:1.25em; color:#000001;" class="copy-body" align="left">This summer&rsquo;s institute will focus on strategies for building leadership and capacity for literacy instruction in K-12 given the challenges of the Common Core State Standards and the new SmarterBalanced assessments. Hear from nationally renowned researchers who have been integrally involved with districts and schools facing these challenges, and Oregon school district leaders who will share their leadership strategies around the Common Core, including what has and has not worked so far.</td>
+                                                <td></td>
+                                            </tr><tr>
+                                                <td></td>
+                                                <td class="white-space-quarter" height="25"></td>
+                                                <td></td>
+                                            </tr><tr>
+                                                <td></td>
+                                                <td style="font-family:Trebuchet MS,Helvetica,Arial,sans-serif; font-size:1.75em; text-transform:uppercase; font-weight:600; letter-spacing:-1px; line-height:1.25; color:#154733;" class="headline-2" align="left"><span class="iOS-fix green"><a style="color:#154733 !important;">SAVE THE DATE: JUNE 26-27, 2015</a></span></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- *END* CONTAINER headlines and copy //-->
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+                        <!-- *END* CONTAINER content rows //-->
+
+                    </td>
+                </tr><tr>
+                    <td class="white-space-80-40" height="80" bgcolor="#ffffff"></td>
+                </tr><tr>
+                    <td>
+
+                        <!-- CONTAINER footer //-->
+                        <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#54565b" style="border-bottom-left-radius:9px; border-bottom-right-radius:9px;" class="container-footer">
+                            <tbody><tr>
+                                <td align="center">
+
+                                    <!-- CONTAINER white space //-->
+                                    <table cellspacing="0" cellpadding="0">
+                                        <tbody><tr>
+                                            <td height="80" class="white-space-80-40"></td>
+                                        </tr></tbody>
+                                    </table>
+                                    <!-- *END* CONTAINER white space //-->
+
+                                    <!-- CONTAINER boilerplate links //-->
+                                    <table cellspacing="0" cellpadding="0" align="center">
+                                        <tbody><tr>
+                                            <td width="20"></td>
+                                            <td align="center">
+
+                                                <!-- CONTAINER footer padded round corners //-->
+                                                <table style="border-radius:5px;" cellpadding="10" width="100%" bgcolor="#f8f8ff">
+                                                    <tbody><tr>
+                                                        <td align="left">
+
+                                                            <!-- CONTAINER footer web address //-->
+                                                            <a href="https://education.uoregon.edu/" style="text-decoration:none; color:#000001;"><table width="100%">
+                                                                <tbody><tr>
+                                                                    <td valign="center" width="1">
+
+                                                                        <table border="0"><!-- ICON www //-->
+                                                                            <tbody><tr>
+                                                                                <td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-www.png" height="24" width="24"></td>
+                                                                            </tr></tbody>
+                                                                        </table><!-- *END* ICON www //-->
+
+                                                                    </td>
+                                                                    <td width="4"></td>
+                                                                    <td height="1" width="1">
+
+                                                                        <table border="0" cellpadding="0" cellspacing="0" height="100%"><!-- RULE vertical gray //-->
+                                                                            <tbody><tr>
+                                                                                <td bgcolor="#a8a8aa" width="1"></td>
+                                                                            </tr></tbody>
+                                                                        </table><!-- *END* RULE vertical gray //-->
+
+                                                                    </td>
+                                                                    <td width="4"></td>
+                                                                    <td>
+                                                                        <span style="font-size:1em; line-height:1.5; text-decoration:none; font-family:sans-serif; color:#000001;" class="iOS-fix copy-boilerplate"><a href="https://education.uoregon.edu/" style="text-decoration:none; color:#000001;">education.uoregon.edu</a></span>
+                                                                    </td>
+                                                                </tr></tbody>
+                                                            </table><!-- *END* CONTAINER footer web address //--></a>
+
+                                                        </td>
+                                                    </tr></tbody>
+                                                </table><!-- *END* CONTAINER footer padded round corners //-->
+
+                                            </td>
+                                            <td width="20"></td>
+                                        </tr><tr>
+                                            <td></td>
+                                            <td height="20"></td>
+                                            <td></td>
+                                        </tr><tr>
+                                            <td width="20"></td>
+                                            <td align="center">
+
+                                                <!-- CONTAINER footer padded round corners //-->
+                                                <table style="border-radius:5px;" cellpadding="10" width="100%" bgcolor="#f8f8ff">
+                                                    <tbody><tr>
+                                                        <td align="left">
+
+                                                            <!-- CONTAINER footer email address //-->
+                                                            <table border="0" width="100%">
+                                                                <tbody><tr>
+                                                                    <td valign="center" width="1">
+
+                                                                        <!-- ICON email send //-->
+                                                                        <table border="0">
+                                                                            <tbody><tr>
+                                                                                <td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-email-send.png" height="24" width="24"></td>
+                                                                            </tr></tbody>
+                                                                        </table>
+                                                                        <!-- *END* ICON email send //-->
+
+                                                                    </td>
+                                                                    <td width="4"></td>
+                                                                    <td height="1" width="1">
+
+                                                                        <!-- RULE vertical gray //-->
+                                                                        <table border="0" cellpadding="0" cellspacing="0" height="100%">
+                                                                            <tbody><tr>
+                                                                                <td bgcolor="#a8a8aa" width="1"></td>
+                                                                            </tr></tbody>
+                                                                        </table>
+                                                                        <!-- *END* RULE vertical gray //-->
+
+                                                                    </td>
+                                                                    <td width="4"></td>
+                                                                    <td>
+                                                                        <span style="font-size:1em; line-height:1.5; text-decoration:none; font-family:sans-serif; color:#000001;" class="iOS-fix copy-boilerplate"><a href="mailto:%20edmatters@uoregon.edu" style="text-decoration:none; color:#000001;">naheapes@uoregon.edu</a></span>
+                                                                    </td>
+                                                                </tr></tbody>
+                                                            </table>
+                                                            <!-- *END* CONTAINER footer email address //-->
+
+                                                        </td>
+                                                    </tr></tbody>
+                                                </table>
+                                                <!-- *END* CONTAINER footer padded round corners //-->
+
+                                            </td>
+                                            <td width="20"></td>
+                                        </tr><tr>
+                                            <td></td>
+                                            <td height="20"></td>
+                                            <td></td>
+                                        </tr><tr>
+                                            <td width="20"></td>
+                                            <td align="center">
+                                                
+                                                <!-- CONTAINER padded rounded corners //-->
+                                                <table style="border-radius:5px;" cellpadding="10" width="100%" bgcolor="#f8f8ff">
+                                                    <tbody><tr>
+                                                        <td align="left">
+
+                                                            <!-- CONTAINER footer address hedco //-->
+                                                            <table style="border-radius:5px;" width="100%">
+                                                                <tbody><tr>
+                                                                    <td valign="center" width="1">
+
+                                                                        <!-- ICON address hedco //-->
+                                                                        <table border="0">
+                                                                            <tbody><tr>
+                                                                                <td><img src="http://pages.uoregon.edu/edmatters/big-questions/icon-address-hedco.png" height="24" width="24"></td>
+                                                                            </tr></tbody>
+                                                                        </table>
+                                                                        <!-- *END* ICON address hedco //-->
+
+                                                                    </td>
+                                                                    <td width="4"></td>
+                                                                    <td height="1" width="1">
+
+                                                                        <!-- RULE vertical gray //-->
+                                                                        <table border="0" cellpadding="0" cellspacing="0" height="100%">
+                                                                            <tbody><tr>
+                                                                                <td bgcolor="#a8a8aa" width="1"></td>
+                                                                            </tr></tbody>
+                                                                        </table>
+                                                                        <!-- *END* RULE vertical gray //-->
+
+                                                                    </td>
+                                                                    <td width="4"></td>
+                                                                    <td>
+                                                                        <span style="font-size:1em; line-height:1.5; text-decoration:none; font-family:sans-serif; color:#000001" class="iOS-fix copy-boilerplate">College of Education
+                                                                        <br />1215 University of Oregon
+                                                                        <br />Eugene, OR 97403-1215</span>
+                                                                    </td>
+                                                                </tr></tbody>
+                                                            </table>
+                                                            <!-- *END* CONTAINER footer address hedco //-->
+
+                                                        </td>
+                                                    </tr></tbody>
+                                                </table>
+                                                <!-- *END* CONTAINER padded rounded corners //-->
+
+                                            </td>
+                                            <td width="20"></td>
+                                        </tr></tbody>
+                                    </table>
+                                    <!-- *END* CONTAINER boilerplate links //-->
+
+                                    <!-- CONTAINER white space //-->
+                                    <table cellspacing="0" cellpadding="0">
+                                        <tbody><tr>
+                                            <td height="80" class="white-space-80-40"></td>
+                                        </tr></tbody>
+                                    </table>
+                                    <!-- *END* CONTAINER white space //-->
+
+                                </td>
+                            </tr></tbody>
+                        </table>
+                        <!-- *END* CONTAINER footer //-->
+
+                    </td>
+                </tr>
+            </tbody></table>
+            <!-- *END* CONTAINER main //-->
+
+        </td>
+        <td class="margin" width="50"></td>
+    </tr><tr>
+        <td class="margin"></td>
+        <td class="margin" height="50"></td>
+        <td class="margin"></td>
+    </tr>
+</tbody></table>
+<!-- *END* OUTERMOST container //-->
